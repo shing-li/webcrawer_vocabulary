@@ -1,13 +1,13 @@
-首先下載最新版本python
-再到命令提示字元執行以下指令：
+首先下載最新版本python  
+再到命令提示字元執行以下指令：  
 
-easy_install pip
-pip install openpyxl
-pip install jupyter notebook
-pip install requests
-pip install beautifulsoup4
+easy_install pip  
+pip install openpyxl  
+pip install jupyter notebook  
+pip install requests  
+pip install beautifulsoup4  
 
-下面為程式碼：
+下面為程式碼：  
 
 import requests
 from bs4 import BeautifulSoup
@@ -32,8 +32,8 @@ for k in range(3063,3146):
     
 f.close()
 
-參考文章：
-https://buzzorange.com/techorange/2017/08/04/python-scraping/
-https://ithelp.ithome.com.tw/articles/10202121
-https://www.itread01.com/articles/1498941489.html
-https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/365164/
+參考文章：  
+https://buzzorange.com/techorange/2017/08/04/python-scraping/  
+https://ithelp.ithome.com.tw/articles/10202121  
+https://www.itread01.com/articles/1498941489.html  
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/365164/  
